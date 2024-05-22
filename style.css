@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: #531c93;
+}
+
+nav {
+    background-color: #fff;
+    width: 100%;
+    height: 7vh;
+
+    display: flex;
+    align-items: center;
+}
+
+nav span {
+    width: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+.meses {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.meses ul {
+    display: flex;
+    width: 90vw;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meses ul li{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.meses ul li:nth-child(1){
+    color: green;
+}
+
+.meses ul li:nth-child(2){
+    color: rgb(20, 92, 20);
+}
+
+.meses ul li:nth-child(3){
+    color: black;
+    background-color: #d91e19;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+.meses ul li:nth-child(4){
+    color: lightskyblue;
+}
+
+.meses ul li:nth-child(5){
+    color: tomato;
+}
+
+.vencimento {
+    background-color: #d91e19;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vencimento span {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.valor {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.date, .minimo {
+    margin: 5px 0 0 0;
+    color: rgba(0, 0, 0, 0.666);
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.fatura {
+    height: 53vh;
+    background-color: #fff;
+   display: flex;
+   justify-content: center;
+   padding: 8px 0;
+}
+
+.botoes{
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botoes div {
+    width: 80%;
+    text-align: center;
+    background-color: rgb(210, 208, 206);
+    padding: 13px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.botoes div:nth-child(1){
+    background-color: #531c93;
+    color: white;
+}
+
+.fatura{
+    display: flex;
+    
+}
+.data {
+    height: 100%;
+    width: 20vw;
+}
+.data ul, .gastos ul, .dinheiro ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+    width: 100%;
+}
+
+.data ul li, .gastos ul li, .dinheiro ul li{
+    height: calc(100% / 6);
+    display: flex;
+    align-items: flex-start;
+}
+
+.gastos {
+    height: 100%;
+    width:48vw;
+}
+
+.dinheiro {
+    height: 100%;
+    width:22vw;
+}
+
+.gastos ul li, .dinheiro ul li{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 4px;
+}
+
+.gastos ul li:nth-child(2), .dinheiro ul li:nth-child(2){
+    color: rgb(15, 199, 15);
+    font-weight: 500;
+}
