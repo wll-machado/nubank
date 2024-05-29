@@ -54,7 +54,7 @@ nav span {
 
 .meses ul li:nth-child(3){
     color: black;
-    background-color: #d91e19;
+    background-color: #31f11c;
     border-radius: 25px;
     padding: 5px 15px;
 }
@@ -68,7 +68,7 @@ nav span {
 }
 
 .vencimento {
-    background-color: #d91e19;
+    background-color: #31f11c;
     height: 20vh;
 
     display: flex;
@@ -135,7 +135,7 @@ nav span {
     width: 20vw;
 }
 .data ul, .gastos ul, .dinheiro ul {
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -144,7 +144,8 @@ nav span {
 }
 
 .data ul li, .gastos ul li, .dinheiro ul li{
-    height: calc(100% / 6);
+    height: calc(100% / 3);
+    
     display: flex;
     align-items: flex-start;
 }
@@ -167,6 +168,6 @@ nav span {
 }
 
 .gastos ul li:nth-child(2), .dinheiro ul li:nth-child(2){
-    color: rgb(15, 199, 15);
+   
     font-weight: 500;
 }
