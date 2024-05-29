@@ -168,6 +168,6 @@ nav span {
 }
 
 .gastos ul li:nth-child(2), .dinheiro ul li:nth-child(2){
-   
+   color: #1ac308;
     font-weight: 500;
 }
