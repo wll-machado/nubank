@@ -45,16 +45,16 @@ nav span {
     font-family: sans-serif;
 }
 .meses ul li:nth-child(1){
-    color: green;
+    color: red;
 }
 
-.meses ul li:nth-child(2){
+/* .meses ul li:nth-child(2){
     color: rgb(20, 92, 20);
-}
+} */
 
 .meses ul li:nth-child(3){
     color: black;
-    background-color: #31f11c;
+    background-color: red;
     border-radius: 25px;
     padding: 5px 15px;
 }
@@ -68,7 +68,7 @@ nav span {
 }
 
 .vencimento {
-    background-color: #31f11c;
+    background-color: red;
     height: 20vh;
 
     display: flex;
@@ -97,6 +97,7 @@ nav span {
 
 .fatura {
     height: 53vh;
+    overflow: auto;
     background-color: #fff;
    display: flex;
    justify-content: center;
@@ -126,10 +127,6 @@ nav span {
     color: white;
 }
 
-.fatura{
-    display: flex;
-    
-}
 .data {
     height: 100%;
     width: 20vw;
@@ -144,8 +141,8 @@ nav span {
 }
 
 .data ul li, .gastos ul li, .dinheiro ul li{
-    height: calc(100% / 3);
-    
+    min-height: 50px;
+    margin-bottom: 2px;
     display: flex;
     align-items: flex-start;
 }
@@ -167,7 +164,7 @@ nav span {
     padding-left: 4px;
 }
 
-.gastos ul li:nth-child(2), .dinheiro ul li:nth-child(2){
+/* .gastos ul li:nth-child(2), .dinheiro ul li:nth-child(2){
    color: #1ac308;
     font-weight: 500;
-}
+} */
